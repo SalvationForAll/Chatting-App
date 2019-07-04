@@ -1,0 +1,159 @@
+html {
+  background-color: #e6ecf0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.container{
+	width: 100%;
+	height: 97%;
+	background-color: #e6ecf0;
+}
+
+.side-bar{
+	background-color: #e6ecf0;	
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.side-topbar{
+	background-color: #e6ecf0;
+	height: 15%;
+	border: 1px solid silver;
+}
+
+.img-container{
+	background-color: #e6ecf0;
+	height: 70px;
+	width: 70px;
+	margin-left: 20px;
+	border-radius: 40px;
+}
+
+.img-container img{
+	height: 70px;
+	width: 70px;
+	margin-top: 15px;
+	border-radius: 40px;
+}
+
+.img-container h4{
+	width: 290%;
+	height: 20px;
+	margin-top: -65px;
+	margin-left: 90px;
+}
+
+.btn{
+	width: 80px;
+	height: 30px;
+	margin-left: 230px;
+	margin-top: -60px;
+}
+
+ #logout-btn{
+	width: 80px;
+	height: 30px;
+}  
+
+#logout-btn a{
+	text-decoration: none;
+}
+
+.side-chatbar{
+	background-color: #e6ecf0;
+	height: 84.5%;
+	border: 1px solid silver;
+}
+
+.side-chatbar-section{
+	height: 10%;
+	opacity: 0.8;
+}
+
+.side-chatbar-section:hover{
+	opacity: 1;
+}
+
+.side-chatbar-img-container{
+	height: 40px;
+	width: 50px;
+	margin-top: 10px;
+	border-radius: 40px;
+	margin-right: 34px;
+}
+
+.side-chatbar-img-container img{
+	height: 44px;
+	width: 44px;
+	margin-top: 15px;
+	margin-left: 20px;
+	border-radius: 40px;
+
+}
+
+.side-chatbar-img-container h4{
+	width: 290%;
+	height: 20px;
+	margin-top: -41px;
+	margin-left: 110px;
+}
+
+#msg_area{
+	width: 80%;
+}
+
+.chat-window{
+	background-color: #e6ecf0;
+	border: 1px solid silver;
+	height: 100%;
+	width: 100%;
+}
+
+.chat-window-message{
+	width: 70%; height: 20%; background-color:yellow; overflow-y: auto;
+}
+
+.chat-window-container p{
+	margin: 5px 0;
+}
+
+.chat-window-topbar{
+	background-color: #e6ecf0;
+	width: 100%;
+	height: 15%;
+	border: 1px solid silver;
+}
+
+.chat-window-topbar h3{
+	text-align: center;
+	margin: 30px;
+	font-size: 40px;
+}
+
+.text-box{
+	background-color: #D3D3D3;	
+	height: 12%;
+	margin-top: 35%;
+	margin-left: 30px;
+	border: 1px solid;
+	border-style: dotted;
+	width: 132vh;
+	border-radius: 20px;
+}
+
+.chat-window input{
+	font-size: 20px;
+}
+
+.send-btn{
+	width: 95;
+	height: 75px;
+	margin-top: 34%;
+	margin-right: 10px;
+	float: right;
+}
